@@ -8,6 +8,7 @@
 
 
     <link href="https://fonts.googleapis.com/css?family=Oswald:300,400,700|Muli:300,400" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="fonts/icomoon/style.css">
 
     <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -27,6 +28,7 @@
 
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/max.css">
+
 
 
 </head>
@@ -113,7 +115,7 @@
                                     <a href="about.html" class="nav-link text-left">О нас</a>
                                 </li>
                                 <li>
-                                    <a href="works.html" class="nav-link text-left">Прокат иструментов</a>
+                                    <a href="#petrol-generators" class="nav-link text-left">Прокат бензогенераторов</a>
                                 </li>
                                 <li>
                                     <a href="testimonials.html" class="nav-link text-left">Условия проката</a>

@@ -7,10 +7,11 @@ require_once 'parametr.php';
 <div class="site-section services-1-wrap">
     <div class="container">
         <div class="row mb-5 justify-content-center text-center">
-            <div class="col-lg-5">
-                <h3 class="section-subtitle">What We Do</h3>
-                <h2 class="section-title mb-4 text-black">We Are <strong>Leading Industry</strong> of Engineering.
-                    We Love What We Do</h2>
+            <div class="col-lg-8"><a name="petrol-generators">
+                <h3 class="section-subtitle">Нет электричества?</h3>
+
+                <h2 class="section-title mb-4 text-black">Закажите бензиновый генератор <strong>в аренду с доставкой</strong> и расчитайтесь удобным для вас способом.
+                    </h2>
             </div>
         </div>
 
@@ -30,7 +31,7 @@ require_once 'parametr.php';
                 <div class="project-item">
                     <div class="project-item-contents">
                         <a href="project-single.html">
-                            <span class="project-item-category">Factory</span>
+                            <span class="project-item-category">ЗАВОД</span>
                             <h2 class="project-item-title">
                                 Building Refinery
                             </h2>
