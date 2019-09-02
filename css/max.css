@@ -1,0 +1,12 @@
+
+
+.item-main-photo {
+  max-height: 150px;
+}
+.item-options {
+  color: white;
+  line-height: 15px;
+  font-size: 13px !important;
+  background-color: #9c9c9c;;
+  padding: 5px 5px;
+}
