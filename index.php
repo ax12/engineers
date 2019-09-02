@@ -1,5 +1,6 @@
 <?php
 require_once 'header.php';
+
 require_once 'parametr.php';
 ?>
 
@@ -12,58 +13,10 @@ require_once 'parametr.php';
                     We Love What We Do</h2>
             </div>
         </div>
-        <div class="row no-gutters">
-            <div class="col-lg-3 col-md-6">
-                <div class="service-1">
-                    <span class="number">01</span>
-                    <div class="service-1-icon">
-                        <span class="flaticon-engineer"></span>
-                    </div>
-                    <div class="service-1-content">
-                        <h3 class="service-heading">Professional Team</h3>
-                        <p>Gravida sodales condimentum pellen tesq accumsan orci quam sagittis sapie</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6">
-                <div class="service-1">
-                    <span class="number">02</span>
-                    <div class="service-1-icon">
-                        <span class="flaticon-compass"></span>
-                    </div>
-                    <div class="service-1-content">
-                        <h3 class="service-heading">Great Ideas</h3>
-                        <p>Gravida sodales condimentum pellen tesq accumsan orci quam sagittis sapie</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6">
-                <div class="service-1">
-                    <span class="number">03</span>
-                    <div class="service-1-icon">
-                        <span class="flaticon-oil-platform"></span>
-                    </div>
-                    <div class="service-1-content">
-                        <h3 class="service-heading">Quality Building</h3>
-                        <p>Gravida sodales condimentum pellen tesq accumsan orci quam sagittis sapie</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6">
-                <div class="service-1">
-                    <span class="number">04</span>
-                    <div class="service-1-icon">
-                        <span class="flaticon-crane"></span>
-                    </div>
-                    <div class="service-1-content">
-                        <h3 class="service-heading">Quality Works</h3>
-                        <p>Gravida sodales condimentum pellen tesq accumsan orci quam sagittis sapie</p>
-                    </div>
-                </div>
-            </div>
-        </div>
+
         <?php
-        require_once 'tools-first.php';
+        //including petrol generators
+        require_once 'petrol-generators.php';
         ?>
 
     </div>
