@@ -1,8 +1,12 @@
+<?php
+require_once 'site_settings.php';
+?>
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <title>Engineers &mdash; Website Template by Colorlib</title>
+    <title>Прокат бензоинструмента, бензогенераторов в Екатеринбурге с доставкой</title>
+    <meta name="description" content="Прокат бензогенераторов и строительных инструментов в Екатеринбурге с доставкой, закажите доставку и прокат бензогенераторов">
+    <meta name="keywords" content="прокат, бензогенераторы, Екатеринбург, прокат с доставкой">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -62,8 +66,8 @@
                             <span class="flaticon-placeholder text-primary"></span>
                         </div>
                         <div class="text">
-                            <span class="h4 d-block">Екатеринбург</span>
-                            <span class="caption-text">Малый конный, 10.</span>
+                            <span class="h4 d-block"><?php echo $site_settings ['city']; ?></span>
+                            <span class="caption-text"><?php echo $site_settings ['address']; ?></span>
                         </div>
                     </div>
 
@@ -74,7 +78,7 @@
                             <span class="flaticon-call text-primary"></span>
                         </div>
                         <div class="text">
-                            <span class="h4 d-block">+7 (922) 00 00 000</span>
+                            <span class="h4 d-block"><a href="tel:<?php echo $site_settings ['tel']; ?>"><?php echo $site_settings ['tel']; ?></a></span>
                             <span class="caption-text">Отдел заказов</span>
                         </div>
                     </div>
@@ -86,7 +90,7 @@
                             <span class="flaticon-email text-primary"></span>
                         </div>
                         <div class="text">
-                            <span class="h4 d-block">renta-tools@gmail.com</span>
+                            <span class="h4 d-block"><?php echo $site_settings ['email']; ?></span>
                             <span class="caption-text">Написать нам</span>
                         </div>
                     </div>
@@ -138,22 +142,33 @@
     </div>
 
     <div class="hero-slide owl-carousel site-blocks-cover">
-        <div class="intro-section" style="background-image: url('images/hero_1.jpg');">
+        <div class="intro-section" style="background-image: url('images/hero_3.jpg');">
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-lg-12 mx-auto text-center" data-aos="fade-up">
-                        <h1>Прокат строительного инструмента в Екатеринбурге с доставкой</h1>
+                        <h1>Прокат бензогенераторов в Екатеринбурге с доставкой</h1>
                     </div>
                 </div>
             </div>
         </div>
 
-        <div class="intro-section" style="background-image: url('images/hero_3.jpg');">
+        <div class="intro-section" style="background-image: url('images/hero_2.jpg');">
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-lg-12 mx-auto text-center" data-aos="fade-up">
                         <span class="d-block"></span>
-                        <h1>Experts and High Quality Works</h1>
+                        <h1>Бензогенераторы под любые задачи</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="intro-section" style="background-image: url('images/hero_1.jpg');">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-12 mx-auto text-center" data-aos="fade-up">
+                        <span class="d-block"></span>
+                        <h1>Прокат строительного инструмента</h1>
                     </div>
                 </div>
             </div>
@@ -164,18 +179,7 @@
                 <div class="row align-items-center">
                     <div class="col-lg-12 mx-auto text-center" data-aos="fade-up">
                         <span class="d-block"></span>
-                        <h1>Experts and High Quality Works</h1>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="intro-section" style="background-image: url('images/hero_4.jpg');">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-lg-12 mx-auto text-center" data-aos="fade-up">
-                        <span class="d-block"></span>
-                        <h1>Experts and High Quality Works</h1>
+                        <h1>Мы привезем вам генератор сами</h1>
                     </div>
                 </div>
             </div>
