@@ -29,7 +29,9 @@
     color: #ffffff;
     padding: 5px;
 }
-
+.project-item-title {
+  font-size: 18px !important;
+}
 .mx-project-item:before {
   content: "";
   background: rgba(0, 0, 0, 0.2);

@@ -24,121 +24,6 @@ require_once 'parametr.php';
 <!-- END services -->
 
 <div class="site-section">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-6 col-lg-3 mb-4">
-                <div class="project-item">
-                    <div class="project-item-contents">
-                        <a href="project-single.html">
-                            <span class="project-item-category">ЗАВОД</span>
-                            <h2 class="project-item-title">
-                                Building Refinery
-                            </h2>
-                        </a>
-                    </div>
-                    <img src="images/works_1.jpg" alt="Image" class="img-fluid">
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-3 mb-4">
-                <div class="project-item">
-                    <div class="project-item-contents">
-                        <a href="project-single.html">
-                            <span class="project-item-category">Factory</span>
-                            <h2 class="project-item-title">
-                                Building Refinery
-                            </h2>
-                        </a>
-                    </div>
-                    <img src="images/works_2.jpg" alt="Image" class="img-fluid">
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-3 mb-4">
-                <div class="project-item">
-                    <div class="project-item-contents">
-                        <a href="project-single.html">
-                            <span class="project-item-category">Factory</span>
-                            <h2 class="project-item-title">
-                                Building Refinery
-                            </h2>
-                        </a>
-                    </div>
-                    <img src="images/works_3.jpg" alt="Image" class="img-fluid">
-                </div>
-            </div>
-
-            <div class="col-md-6 col-lg-3 mb-4">
-                <div class="project-item">
-                    <div class="project-item-contents">
-                        <a href="project-single.html">
-                            <span class="project-item-category">Factory</span>
-                            <h2 class="project-item-title">
-                                Building Refinery
-                            </h2>
-                        </a>
-                    </div>
-                    <img src="images/works_4.jpg" alt="Image" class="img-fluid">
-                </div>
-            </div>
-
-            <div class="col-md-6 col-lg-3 mb-4">
-                <div class="project-item">
-                    <div class="project-item-contents">
-                        <a href="project-single.html">
-                            <span class="project-item-category">Factory</span>
-                            <h2 class="project-item-title">
-                                Building Refinery
-                            </h2>
-                        </a>
-                    </div>
-                    <img src="images/works_3.jpg" alt="Image" class="img-fluid">
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-3 mb-4">
-                <div class="project-item">
-                    <div class="project-item-contents">
-                        <a href="project-single.html">
-                            <span class="project-item-category">Factory</span>
-                            <h2 class="project-item-title">
-                                Building Refinery
-                            </h2>
-                        </a>
-                    </div>
-                    <img src="images/works_4.jpg" alt="Image" class="img-fluid">
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-3 mb-4">
-                <div class="project-item">
-                    <div class="project-item-contents">
-                        <a href="project-single.html">
-                            <span class="project-item-category">Factory</span>
-                            <h2 class="project-item-title">
-                                Building Refinery
-                            </h2>
-                        </a>
-                    </div>
-                    <img src="images/works_3.jpg" alt="Image" class="img-fluid">
-                </div>
-            </div>
-
-            <div class="col-md-6 col-lg-3 mb-4">
-                <div class="project-item">
-                    <div class="project-item-contents">
-                        <a href="project-single.html">
-                            <span class="project-item-category">Factory</span>
-                            <h2 class="project-item-title">
-                                Building Refinery
-                            </h2>
-                        </a>
-                    </div>
-                    <img src="images/works_2.jpg" alt="Image" class="img-fluid">
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-
-<div class="site-section">
     <div class="block-2">
         <div class="container">
             <div class="row">
@@ -146,31 +31,30 @@ require_once 'parametr.php';
                     <img src="images/about_1.jpg" alt="Image " class="img-fluid img-overlap">
                 </div>
                 <div class="col-lg-5 ml-auto">
-                    <h3 class="section-subtitle">Why Choose Us</h3>
-                    <h2 class="section-title mb-4">More than <strong>50 year experience</strong> in industry</h2>
-                    <p>Reprehenderit, odio laboriosam? Blanditiis quae ullam quasi illum minima nostrum perspiciatis
-                        error consequatur sit nulla.</p>
+                    <h3 class="section-subtitle">почему мы?</h3>
+                    <h2 class="section-title mb-4">Огромный выбор <strong>электро и бензоинструмента</strong> известных марок</h2>
+                    <p>Мы поддерживаем свой инструмент в исправном иехническом состоянии благодаря профессиональным мастерам нашего сервисного центра</p>
 
                     <div class="row my-5">
                         <div class="col-lg-12 d-flex align-items-center mb-4">
                             <span class="line-height-0 flaticon-oil-platform display-4 mr-4 text-primary"></span>
                             <div>
-                                <h4 class="m-0 h5 text-white">Expert in Builings</h4>
-                                <p class="text-white">Lorem ipsum dolor sit amet.</p>
+                                <h4 class="m-0 h5 text-white">Стройка или ремонт</h4>
+                                <p class="text-white">Проконсультируйтесь с нашим специалистом</p>
                             </div>
                         </div>
                         <div class="col-lg-12 d-flex align-items-center mb-4">
                             <span class="line-height-0 flaticon-compass display-4 mr-4 text-primary"></span>
                             <div>
-                                <h4 class="m-0 h5 text-white">Modern Design</h4>
-                                <p class="text-white">Lorem ipsum dolor sit amet.</p>
+                                <h4 class="m-0 h5 text-white">Выбирайте под свои задачи</h4>
+                                <p class="text-white">Весь инструмент проходит проверку</p>
                             </div>
                         </div>
                         <div class="col-lg-12 d-flex align-items-center">
                             <span class="line-height-0 flaticon-planning display-4 mr-4 text-primary"></span>
                             <div>
-                                <h4 class="m-0 h5 text-white">Leading In Floor Planning</h4>
-                                <p class="text-white">Lorem ipsum dolor sit amet.</p>
+                                <h4 class="m-0 h5 text-white">Гарантия низких цен</h4>
+                                <p class="text-white">Привезем быстро в день заказа</p>
                             </div>
                         </div>
 
@@ -186,6 +70,135 @@ require_once 'parametr.php';
 <!-- END block-2 -->
 
 
+<div class="site-section">
+    <div class="container">
+        <div class="row">
+
+            <div class="container">
+                <div class="row mb-5 justify-content-center text-center">
+                    <div class="col-lg-8"><a name="petrol-generators">
+                            <h3 class="section-subtitle">НУЖЕН ИНСТРУМЕНТ?</h3>
+
+                            <h2 class="section-title mb-4 text-black">Мы предоставляем различный электро и бензо инструмент <strong>в аренду с доставкой</strong> и расчитайтесь удобным для вас способом.
+                            </h2>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3 mb-4">
+                <div class="project-item">
+                    <div class="project-item-contents">
+                        <a href="#">
+                            <span class="project-item-category">Аренда</span>
+                            <h2 class="project-item-title">
+                                Бензогенераторов
+                            </h2>
+                        </a>
+                    </div>
+                    <img src="images/works_1.jpg" alt="Image" class="img-fluid">
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3 mb-4">
+                <div class="project-item">
+                    <div class="project-item-contents">
+                        <a href="#">
+                            <span class="project-item-category">Аренда</span>
+                            <h2 class="project-item-title">
+                               Ямобуров
+                            </h2>
+                        </a>
+                    </div>
+                    <img src="images/works_2.jpg" alt="Image" class="img-fluid">
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3 mb-4">
+                <div class="project-item">
+                    <div class="project-item-contents">
+                        <a href="#">
+                            <span class="project-item-category">Аренда</span>
+                            <h2 class="project-item-title">
+                                Виброплит
+                            </h2>
+                        </a>
+                    </div>
+                    <img src="images/works_3.jpg" alt="Image" class="img-fluid">
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-3 mb-4">
+                <div class="project-item">
+                    <div class="project-item-contents">
+                        <a href="#">
+                            <span class="project-item-category">Аренда</span>
+                            <h2 class="project-item-title">
+                                Компрессоров
+                            </h2>
+                        </a>
+                    </div>
+                    <img src="images/works_4.jpg" alt="Image" class="img-fluid">
+                </div>
+            </div>
+
+<!--            <div class="col-md-6 col-lg-3 mb-4">-->
+<!--                <div class="project-item">-->
+<!--                    <div class="project-item-contents">-->
+<!--                        <a href="project-single.html">-->
+<!--                            <span class="project-item-category">Factory</span>-->
+<!--                            <h2 class="project-item-title">-->
+<!--                                Building Refinery-->
+<!--                            </h2>-->
+<!--                        </a>-->
+<!--                    </div>-->
+<!--                    <img src="images/works_3.jpg" alt="Image" class="img-fluid">-->
+<!--                </div>-->
+<!--            </div>-->
+<!--            <div class="col-md-6 col-lg-3 mb-4">-->
+<!--                <div class="project-item">-->
+<!--                    <div class="project-item-contents">-->
+<!--                        <a href="project-single.html">-->
+<!--                            <span class="project-item-category">Factory</span>-->
+<!--                            <h2 class="project-item-title">-->
+<!--                                Building Refinery-->
+<!--                            </h2>-->
+<!--                        </a>-->
+<!--                    </div>-->
+<!--                    <img src="images/works_4.jpg" alt="Image" class="img-fluid">-->
+<!--                </div>-->
+<!--            </div>-->
+<!--            <div class="col-md-6 col-lg-3 mb-4">-->
+<!--                <div class="project-item">-->
+<!--                    <div class="project-item-contents">-->
+<!--                        <a href="project-single.html">-->
+<!--                            <span class="project-item-category">Factory</span>-->
+<!--                            <h2 class="project-item-title">-->
+<!--                                Building Refinery-->
+<!--                            </h2>-->
+<!--                        </a>-->
+<!--                    </div>-->
+<!--                    <img src="images/works_3.jpg" alt="Image" class="img-fluid">-->
+<!--                </div>-->
+<!--            </div>-->
+<!---->
+<!--            <div class="col-md-6 col-lg-3 mb-4">-->
+<!--                <div class="project-item">-->
+<!--                    <div class="project-item-contents">-->
+<!--                        <a href="project-single.html">-->
+<!--                            <span class="project-item-category">Factory</span>-->
+<!--                            <h2 class="project-item-title">-->
+<!--                                Building Refinery-->
+<!--                            </h2>-->
+<!--                        </a>-->
+<!--                    </div>-->
+<!--                    <img src="images/works_2.jpg" alt="Image" class="img-fluid">-->
+<!--                </div>-->
+<!--            </div>-->
+        </div>
+    </div>
+</div>
+
+
+
+
+
 <div class="">
     <div class="container">
         <div class="row">
@@ -196,36 +209,36 @@ require_once 'parametr.php';
 
                 <div class="bg-black  quote-form-wrap wrap text-white">
                     <div class="mb-5">
-                        <h3 class="section-subtitle">Get A Quote</h3>
-                        <h2 class="section-title mb-4">Request A <strong>Quote</strong></h2>
+                        <h3 class="section-subtitle">Остались вопросы?</h3>
+                        <h2 class="section-title mb-4">Пишите или <strong><a href="tel:<?php echo $site_settings ['tel']; ?>">Звоните</a></strong></h2>
                     </div>
                     <form action="#" class="quote-form">
                         <div class="row">
                             <div class="col-md-6 form-group">
-                                <input type="text" class="form-control" placeholder="Your name*">
+                                <input type="text" class="form-control" placeholder="Ваше имя*">
                             </div>
                             <div class="col-md-6 form-group">
-                                <input type="text" class="form-control" placeholder="Phone number">
+                                <input type="text" class="form-control" placeholder="Номер телефона">
                             </div>
                         </div>
 
                         <div class="row">
                             <div class="col-md-6 form-group">
-                                <input type="text" class="form-control" placeholder="Your email*">
+                                <input type="text" class="form-control" placeholder="Ваш email*">
                             </div>
                             <div class="col-md-6 form-group">
-                                <input type="text" class="form-control" placeholder="Subject">
+                                <input type="text" class="form-control" placeholder="Тема">
                             </div>
                         </div>
 
                         <div class="row">
                             <div class="col-md-6">
-                                    <textarea name="" class="form-control" id="" placeholder="Message*" cols="30"
+                                    <textarea name="" class="form-control" id="" placeholder="Сообщение*" cols="30"
                                               rows="7"></textarea>
                             </div>
                             <div class="col-md-6 align-self-end">
                                 <input type="submit" class="btn btn-primary btn-block btn-lg rounded-0"
-                                       value="Send Message">
+                                       value="Отправить">
                             </div>
                         </div>
 
@@ -241,8 +254,8 @@ require_once 'parametr.php';
     <div class="container">
 
         <div class="mb-5">
-            <h3 class="section-subtitle">Our Projects</h3>
-            <h2 class="section-title mb-4">Explore Our <strong>Recent Projects</strong></h2>
+            <h3 class="section-subtitle">наш ассортимент</h3>
+            <h2 class="section-title mb-4">Новые поступления <strong>в отдел проката</strong></h2>
         </div>
 
         <div class="projects-carousel-wrap">
@@ -304,30 +317,28 @@ require_once 'parametr.php';
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-12 mb-5 text-center">
-                <h3 class="section-subtitle">Testimonial</h3>
-                <h2 class="section-title text-black mb-4">What People Says</h2>
+                <h3 class="section-subtitle">Отзывы и рекомендации</h3>
+                <h2 class="section-title text-black mb-4">Что говорят о нас наши клиенты</h2>
             </div>
         </div>
 
-        <div class="row">
+        <div class="row bg-light">
             <div class="col-md-6 mb-4 mb-md-0">
-                <div class="testimonial">
+                <div class="testimonial ">
                     <img src="images/person_3_sq.jpg" alt="">
                     <blockquote>
-                        <p>&ldquo;Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident deleniti iusto
-                            molestias, dolore vel fugiat ab placeat ea?&rdquo;</p>
+                        <p>&ldquo;Заказывал бензогенератор под работы сварщика, привезли быстро, цены одни из самых низких в городе&rdquo;</p>
                     </blockquote>
-                    <p class="client-name">Matt Keygen</p>
+                    <p class="client-name">Марат Сайфутдинов</p>
                 </div>
             </div>
             <div class="col-md-6 mb-4 mb-md-0">
                 <div class="testimonial">
                     <img src="images/person_4_sq.jpg" alt="">
                     <blockquote>
-                        <p>&ldquo;Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident deleniti iusto
-                            molestias, dolore vel fugiat ab placeat ea?&rdquo;</p>
+                        <p>&ldquo;Заказывал несколько раз компрессоры на разные объекты, инструмент приходит практически новый, все работает отлично. Спасибо за скорость!&rdquo;</p>
                     </blockquote>
-                    <p class="client-name">Matt Keygen</p>
+                    <p class="client-name">Сергей Беляков (прораб АСК)</p>
                 </div>
             </div>
         </div>
@@ -335,64 +346,64 @@ require_once 'parametr.php';
 </div>
 
 
-<div class="site-section bg-light">
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-12 mb-5 text-left">
-                <h3 class="section-subtitle">Blog</h3>
-                <h2 class="section-title text-black mb-4">News &amp; Updates</h2>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-6 mb-4 mb-lg-0 col-lg-4">
-                <div class="blog-entry">
-                    <a href="#" class="img-link">
-                        <img src="images/hero_1.jpg" alt="Image" class="img-fluid">
-                    </a>
-                    <div class="blog-entry-contents">
-                        <h3><a href="#">Top Companies That Are Best In Industrial Business</a></h3>
-                        <div class="meta">Posted by <a href="#">Admin</a> In <a href="#">News</a></div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6 mb-4 mb-lg-0 col-lg-4">
-                <div class="blog-entry">
-                    <a href="#" class="img-link">
-                        <img src="images/hero_1.jpg" alt="Image" class="img-fluid">
-                    </a>
-                    <div class="blog-entry-contents">
-                        <h3><a href="#">Top Companies That Are Best In Industrial Business</a></h3>
-                        <div class="meta">Posted by <a href="#">Admin</a> In <a href="#">News</a></div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6 mb-4 mb-lg-0 col-lg-4">
-                <div class="blog-entry">
-                    <a href="#" class="img-link">
-                        <img src="images/hero_1.jpg" alt="Image" class="img-fluid">
-                    </a>
-                    <div class="blog-entry-contents">
-                        <h3><a href="#">Top Companies That Are Best In Industrial Business</a></h3>
-                        <div class="meta">Posted by <a href="#">Admin</a> In <a href="#">News</a></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+<!--<div class="site-section bg-light">-->
+<!--    <div class="container">-->
+<!--        <div class="row justify-content-center">-->
+<!--            <div class="col-12 mb-5 text-left">-->
+<!--                <h3 class="section-subtitle">Blog</h3>-->
+<!--                <h2 class="section-title text-black mb-4">News &amp; Updates</h2>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--        <div class="row">-->
+<!--            <div class="col-md-6 mb-4 mb-lg-0 col-lg-4">-->
+<!--                <div class="blog-entry">-->
+<!--                    <a href="#" class="img-link">-->
+<!--                        <img src="images/hero_1.jpg" alt="Image" class="img-fluid">-->
+<!--                    </a>-->
+<!--                    <div class="blog-entry-contents">-->
+<!--                        <h3><a href="#">Top Companies That Are Best In Industrial Business</a></h3>-->
+<!--                        <div class="meta">Posted by <a href="#">Admin</a> In <a href="#">News</a></div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--            <div class="col-md-6 mb-4 mb-lg-0 col-lg-4">-->
+<!--                <div class="blog-entry">-->
+<!--                    <a href="#" class="img-link">-->
+<!--                        <img src="images/hero_1.jpg" alt="Image" class="img-fluid">-->
+<!--                    </a>-->
+<!--                    <div class="blog-entry-contents">-->
+<!--                        <h3><a href="#">Top Companies That Are Best In Industrial Business</a></h3>-->
+<!--                        <div class="meta">Posted by <a href="#">Admin</a> In <a href="#">News</a></div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--            <div class="col-md-6 mb-4 mb-lg-0 col-lg-4">-->
+<!--                <div class="blog-entry">-->
+<!--                    <a href="#" class="img-link">-->
+<!--                        <img src="images/hero_1.jpg" alt="Image" class="img-fluid">-->
+<!--                    </a>-->
+<!--                    <div class="blog-entry-contents">-->
+<!--                        <h3><a href="#">Top Companies That Are Best In Industrial Business</a></h3>-->
+<!--                        <div class="meta">Posted by <a href="#">Admin</a> In <a href="#">News</a></div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</div>-->
 
 
 <div class="py-5 bg-primary block-4">
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-6">
-                <h3 class="text-white">Subscribe To Newsletter</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, reprehenderit!</p>
+                <h3 class="text-white">подписка на новости</h3>
+                <p>что бы не пропустить обновление парка инструментов и акции, подписывайся на наши новости</p>
             </div>
             <div class="col-lg-6">
                 <form action="#" class="form-subscribe d-flex">
                     <input type="text" class="form-control form-control-lg">
-                    <input type="submit" class="btn btn-secondary px-4" value="Subcribe">
+                    <input type="submit" class="btn btn-secondary px-4" value="хочу получать">
                 </form>
             </div>
         </div>
@@ -403,38 +414,37 @@ require_once 'parametr.php';
     <div class="container">
         <div class="row">
             <div class="col-lg-3">
-                <p class="mb-4"><img src="images/logo2.png" alt="Image" class="img-fluid"></p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae nemo minima qui dolor, iusto
-                    iure.</p>
-                <p><a href="#">Learn More</a></p>
+                <p class="mb-4"><img src="images/logo.png" alt="Image" class="img-fluid"></p>
+                <p>Самые выгодные условия на прокат бензо и электроинструментов в Екатеринбурге </p>
+
             </div>
             <div class="col-lg-3">
                 <h3 class="footer-heading"><span>Our Company</span></h3>
                 <ul class="list-unstyled">
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">News</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">Our Team</a></li>
-                    <li><a href="#">Careers</a></li>
-                    <li><a href="#">Projects</a></li>
+                    <li><a href="#">Главная</a></li>
+                    <li><a href="#">Новости</a></li>
+                    <li><a href="#">Сервис</a></li>
+                    <li><a href="#">Наши сотрудники</a></li>
+                    <li><a href="#">Вакансии</a></li>
+                    <li><a href="#">Поставщики</a></li>
                 </ul>
             </div>
             <div class="col-lg-3">
-                <h3 class="footer-heading"><span>Our Services</span></h3>
+                <h3 class="footer-heading"><span>Наш сервис</span></h3>
                 <ul class="list-unstyled">
-                    <li><a href="#">Industrial</a></li>
-                    <li><a href="#">Construction</a></li>
-                    <li><a href="#">Remodeling</a></li>
+                    <li><a href="#">Доставка</a></li>
+                    <li><a href="#">Оплата</a></li>
+                    <li><a href="#">Обслуживание</a></li>
                 </ul>
             </div>
             <div class="col-lg-3">
-                <h3 class="footer-heading"><span>Contact</span></h3>
+                <h3 class="footer-heading"><span>Контакты</span></h3>
                 <ul class="list-unstyled">
-                    <li><a href="#">Help Center</a></li>
-                    <li><a href="#">Support Community</a></li>
-                    <li><a href="#">Press</a></li>
-                    <li><a href="#">FAQ</a></li>
-                    <li><a href="#">Our Partners</a></li>
+                    <li><a href="#">Поддержка</a></li>
+                    <li><a href="#">Обращение</a></li>
+                    <li><a href="#">Пресса о нас</a></li>
+                    <li><a href="#">Строительные площадки</a></li>
+                    <li><a href="#">Наши партнеры</a></li>
                 </ul>
             </div>
         </div>
@@ -442,14 +452,14 @@ require_once 'parametr.php';
         <div class="row">
             <div class="col-12">
                 <div class="copyright">
-                    <p>
-                        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                        Copyright &copy;<script>document.write(new Date().getFullYear());</script>
-                        All rights reserved | This template is made with <i class="icon-heart text-danger"
-                                                                            aria-hidden="true"></i> by <a
-                            href="https://colorlib.com" target="_blank">Colorlib</a>
-                        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                    </p>
+<!--                    <p>-->
+<!--                        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+<!--                        Copyright &copy;<script>document.write(new Date().getFullYear());</script>-->
+<!--                        All rights reserved | This template is made with <i class="icon-heart text-danger"-->
+<!--                                                                            aria-hidden="true"></i> by <a-->
+<!--                            href="https://colorlib.com" target="_blank">Colorlib</a>-->
+<!--                        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+<!--                    </p>-->
                 </div>
             </div>
         </div>
