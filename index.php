@@ -6,18 +6,11 @@ require_once 'inc/icon_tools_menu.php'; //подключение меню выб
 
 <div class="site-section services-1-wrap">
     <div class="container">
-        <div class="row mb-5 justify-content-center text-center">
-            <div class="col-lg-8"><a name="petrol-generators">
-                <h3 class="section-subtitle">Нет электричества?</h3>
 
-                <h2 class="section-title mb-4 text-black">Закажите бензиновый генератор <strong>в аренду с доставкой</strong> и расчитайтесь удобным для вас способом.
-                    </h2>
-            </div>
-        </div>
 
         <?php
        //tools catalog
-        require_once 'catalog/petrol-generators.php';  //бензиновые генераторы
+        require_once 'catalog/main_catalog_inc.php';  //бензиновые генераторы
         ?>
 
     </div>

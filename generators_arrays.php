@@ -1,6 +1,9 @@
 <?php
-
-
+//setting for page
+$page_settings_array = array (
+    'h3' => 'нет электричества?',
+    'h2' => 'Закажите бензиновый генератор <strong>в аренду с доставкой</strong> и расчитайтесь удобным для вас способом.',
+);
 //const
 $before_price = 'Стоимость в сутки';
 $after_price = ' руб';
@@ -8,7 +11,7 @@ $after_price = ' руб';
 $count_arrays = 30;
 //prices
 
-$petrol_generator_1 = array(
+$catalog_item_1 = array(
     'img' => 'WackerNeusonMG5.png',
     'name' => "Wacker Neuson MG5",
     'price' => 800,
@@ -20,7 +23,7 @@ $petrol_generator_1 = array(
     )
 
 );
-$petrol_generator_2 = array(
+$catalog_item_2 = array(
     'img' => 'HyundaiHY3000F.jpg',
     'name' => "Генератор Hyundai HY3000F",
     'price' => 1000,
@@ -32,7 +35,7 @@ $petrol_generator_2 = array(
     )
 
 );
-$petrol_generator_3 = array(
+$catalog_item_3 = array(
     'img' => 'champion-gg3300e.jpg',
     'name' => "Генератор Champion GG3300E",
     'price' => 700,
@@ -46,7 +49,7 @@ $petrol_generator_3 = array(
 
 );
 
-$petrol_generator_4 = array(
+$catalog_item_4 = array(
     'img' => 'WesterGNB7500i.png',
     'name' => "Генератор инверторный Wester GNB7500i (Для оргтехники)",
     'price' => 2000,
@@ -62,7 +65,7 @@ $petrol_generator_4 = array(
 );
 
 
-$petrol_generator_5 = array(
+$catalog_item_5 = array(
     'img' => 'GeneracGP6000E.png',
     'name' => "Generac GP6000E",
     'price' => 1200,
@@ -76,7 +79,7 @@ $petrol_generator_5 = array(
     )
 
 );
-$petrol_generator_6 = array(
+$catalog_item_6 = array(
     'img' => 'TSS-SGG-7500Е3.png',
     'name' => "Бензогенератор TSS-SGG-7500Е3",
     'price' => 2000,
@@ -91,7 +94,7 @@ $petrol_generator_6 = array(
 
 );
 
-$petrol_generator_6 = array(
+$catalog_item_6 = array(
     'img' => 'SDMOTECHNIC10000E.png',
     'name' => "Бензиновая электростанция SDMO TECHNIC 10000 E",
     'price' => 2000,
@@ -107,7 +110,7 @@ $petrol_generator_6 = array(
 );
 
 
-$petrol_generator_7 = array(
+$catalog_item_7 = array(
     'img' => 'HUTERDY6500L.jpg',
     'name' => "Генератор HUTER DY6500L",
     'price' => 1000,
@@ -121,7 +124,7 @@ $petrol_generator_7 = array(
     )
 
 );
-$petrol_generator_8 = array(
+$catalog_item_8 = array(
     'img' => 'SDMOTECHNIC15000TE.jpg',
     'name' => "Генератор SDMO TECHNIC 15000 TE",
     'price' => 2200,
@@ -135,7 +138,7 @@ $petrol_generator_8 = array(
     )
 
 );
-$petrol_generator_9 = array(
+$catalog_item_9 = array(
     'img' => 'SDMOLX7500.jpg',
     'name' => "Генератор SDMO LX 7500",
     'price' => 1500,
@@ -149,7 +152,7 @@ $petrol_generator_9 = array(
     )
 
 );
-$petrol_generator_10 = array(
+$catalog_item_10 = array(
     'img' => 'HUTERDY3000L.jpg',
     'name' => "Генератор HUTER DY3000L",
     'price' => 800,
