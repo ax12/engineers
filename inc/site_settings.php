@@ -1,4 +1,8 @@
 <?php
+//bootstrap cols
+$col_lg_count = 4;
+$col_md_count = 6;
+
 //site settings
 $site_settings = array(
     'city' => 'Екатеринбург',

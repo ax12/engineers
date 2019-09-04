@@ -1,5 +1,5 @@
 <?php
-require_once 'site_settings.php';
+require_once 'inc/site_settings.php';
 ?>
 <!DOCTYPE html>
 <html lang="en">

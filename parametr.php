@@ -1,8 +1,6 @@
 <?php
 
-//bootstrap cols
-$col_lg_count = 4;
-$col_md_count = 6;
+
 //const
 $before_price = 'Стоимость в сутки';
 $after_price = ' руб';

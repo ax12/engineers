@@ -1,6 +1,7 @@
 <?php
 require_once 'header.php';
-require_once 'parametr.php';
+
+require_once 'inc/icon_tools_menu.php'; //подключение меню выбора типа инструмента, с иконками и всплывающими надписями
 ?>
 
 <div class="site-section services-1-wrap">
@@ -15,8 +16,8 @@ require_once 'parametr.php';
         </div>
 
         <?php
-        //including petrol generators
-        require_once 'petrol-generators.php';
+       //tools catalog
+        require_once 'catalog/petrol-generators.php';  //бензиновые генераторы
         ?>
 
     </div>
@@ -70,130 +71,6 @@ require_once 'parametr.php';
 <!-- END block-2 -->
 
 
-<div class="site-section">
-    <div class="container">
-        <div class="row">
-
-            <div class="container">
-                <div class="row mb-5 justify-content-center text-center">
-                    <div class="col-lg-8"><a name="petrol-generators">
-                            <h3 class="section-subtitle">НУЖЕН ИНСТРУМЕНТ?</h3>
-
-                            <h2 class="section-title mb-4 text-black">Мы предоставляем различный электро и бензо инструмент <strong>в аренду с доставкой</strong> и расчитайтесь удобным для вас способом.
-                            </h2>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-3 mb-4">
-                <div class="project-item">
-                    <div class="project-item-contents">
-                        <a href="#">
-                            <span class="project-item-category">Аренда</span>
-                            <h2 class="project-item-title">
-                                Бензогенераторов
-                            </h2>
-                        </a>
-                    </div>
-                    <img src="images/works_1.jpg" alt="Image" class="img-fluid">
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-3 mb-4">
-                <div class="project-item">
-                    <div class="project-item-contents">
-                        <a href="#">
-                            <span class="project-item-category">Аренда</span>
-                            <h2 class="project-item-title">
-                               Ямобуров
-                            </h2>
-                        </a>
-                    </div>
-                    <img src="images/works_2.jpg" alt="Image" class="img-fluid">
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-3 mb-4">
-                <div class="project-item">
-                    <div class="project-item-contents">
-                        <a href="#">
-                            <span class="project-item-category">Аренда</span>
-                            <h2 class="project-item-title">
-                                Виброплит
-                            </h2>
-                        </a>
-                    </div>
-                    <img src="images/works_3.jpg" alt="Image" class="img-fluid">
-                </div>
-            </div>
-
-            <div class="col-md-6 col-lg-3 mb-4">
-                <div class="project-item">
-                    <div class="project-item-contents">
-                        <a href="#">
-                            <span class="project-item-category">Аренда</span>
-                            <h2 class="project-item-title">
-                                Компрессоров
-                            </h2>
-                        </a>
-                    </div>
-                    <img src="images/works_4.jpg" alt="Image" class="img-fluid">
-                </div>
-            </div>
-
-<!--            <div class="col-md-6 col-lg-3 mb-4">-->
-<!--                <div class="project-item">-->
-<!--                    <div class="project-item-contents">-->
-<!--                        <a href="project-single.html">-->
-<!--                            <span class="project-item-category">Factory</span>-->
-<!--                            <h2 class="project-item-title">-->
-<!--                                Building Refinery-->
-<!--                            </h2>-->
-<!--                        </a>-->
-<!--                    </div>-->
-<!--                    <img src="images/works_3.jpg" alt="Image" class="img-fluid">-->
-<!--                </div>-->
-<!--            </div>-->
-<!--            <div class="col-md-6 col-lg-3 mb-4">-->
-<!--                <div class="project-item">-->
-<!--                    <div class="project-item-contents">-->
-<!--                        <a href="project-single.html">-->
-<!--                            <span class="project-item-category">Factory</span>-->
-<!--                            <h2 class="project-item-title">-->
-<!--                                Building Refinery-->
-<!--                            </h2>-->
-<!--                        </a>-->
-<!--                    </div>-->
-<!--                    <img src="images/works_4.jpg" alt="Image" class="img-fluid">-->
-<!--                </div>-->
-<!--            </div>-->
-<!--            <div class="col-md-6 col-lg-3 mb-4">-->
-<!--                <div class="project-item">-->
-<!--                    <div class="project-item-contents">-->
-<!--                        <a href="project-single.html">-->
-<!--                            <span class="project-item-category">Factory</span>-->
-<!--                            <h2 class="project-item-title">-->
-<!--                                Building Refinery-->
-<!--                            </h2>-->
-<!--                        </a>-->
-<!--                    </div>-->
-<!--                    <img src="images/works_3.jpg" alt="Image" class="img-fluid">-->
-<!--                </div>-->
-<!--            </div>-->
-<!---->
-<!--            <div class="col-md-6 col-lg-3 mb-4">-->
-<!--                <div class="project-item">-->
-<!--                    <div class="project-item-contents">-->
-<!--                        <a href="project-single.html">-->
-<!--                            <span class="project-item-category">Factory</span>-->
-<!--                            <h2 class="project-item-title">-->
-<!--                                Building Refinery-->
-<!--                            </h2>-->
-<!--                        </a>-->
-<!--                    </div>-->
-<!--                    <img src="images/works_2.jpg" alt="Image" class="img-fluid">-->
-<!--                </div>-->
-<!--            </div>-->
-        </div>
-    </div>
-</div>
 
 
 
