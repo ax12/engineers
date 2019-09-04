@@ -21,7 +21,7 @@ $site_settings = array(
         'Главная' => '/',
         'Прокат бензогенераторов' => 'arenda-benzogeneratora',
         'Прокат бензобуров' => 'arenda-benzobur-yamobur',
-        'прокат виброплит' => 'arenda-vibroplit',
+        'Прокат виброплит' => 'arenda-vibroplit',
         'Оплата' => 'АИ-92',
 
     )
