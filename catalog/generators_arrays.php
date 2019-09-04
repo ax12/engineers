@@ -10,11 +10,14 @@ $after_price = ' руб';
 //указать максимаьное количество товаров к выводу
 $count_arrays = 30;
 //prices
+$mod_price_1 = 100;
+$mod_price_2 = 200;
+$mod_price_3 = 300;
 
 $catalog_item_1 = array(
     'img' => 'WackerNeusonMG5.png',
     'name' => "Wacker Neuson MG5",
-    'price' => 800,
+    'price' => 1200,
     'options' => array(
         'Мощность' => '5.5 кВт',
         'Вес' => '79 кг',
@@ -26,7 +29,7 @@ $catalog_item_1 = array(
 $catalog_item_2 = array(
     'img' => 'HyundaiHY3000F.jpg',
     'name' => "Генератор Hyundai HY3000F",
-    'price' => 1000,
+    'price' => 800,
     'options' => array(
         'Мощность' => '2.8 кВт',
         'Вес' => '47 кг',
@@ -38,7 +41,7 @@ $catalog_item_2 = array(
 $catalog_item_3 = array(
     'img' => 'champion-gg3300e.jpg',
     'name' => "Генератор Champion GG3300E",
-    'price' => 700,
+    'price' => 1000,
     'options' => array(
         'Мощность' => '2.2 кВт',
         'Вес' => '45 кг',
