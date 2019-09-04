@@ -1,6 +1,6 @@
+
 <?php
 require_once 'header.php';
-
 require_once 'inc/icon_tools_menu.php'; //подключение меню выбора типа инструмента, с иконками и всплывающими надписями
 ?>
 
@@ -10,6 +10,7 @@ require_once 'inc/icon_tools_menu.php'; //подключение меню выб
 
         <?php
        //tools catalog
+        require_once 'catalog/generators_arrays.php';
         require_once 'inc/main_catalog_inc.php';  //бензиновые генераторы
         ?>
 

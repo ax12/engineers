@@ -93,16 +93,16 @@ require_once 'inc/site_settings.php';
                         <nav class="site-navigation position-relative text-right" role="navigation">
                             <ul class="site-menu main-menu js-clone-nav mr-auto d-none pl-0 d-lg-block">
                                 <li class="active">
-                                    <a href="index.html" class="nav-link text-left">Главная</a>
+                                    <a href="/" class="nav-link text-left">Главная</a>
                                 </li>
                                 <li>
                                     <a href="about.html" class="nav-link text-left">О нас</a>
                                 </li>
                                 <li>
-                                    <a href="#petrol-generators" class="nav-link text-left">Прокат бензогенераторов</a>
+                                    <a href="arenda-benzogeneratora" class="nav-link text-left">Прокат бензогенераторов</a>
                                 </li>
                                 <li>
-                                    <a href="testimonials.html" class="nav-link text-left">Условия проката</a>
+                                    <a href="arenda-benzobur-yamobur" class="nav-link text-left">Прокат бензобуров</a>
                                 </li>
                                 <li><a href="blog.html" class="nav-link text-left">Доставка</a></li>
                                 <li>

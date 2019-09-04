@@ -1,6 +1,6 @@
 <?php
 require_once 'header.php';
-
+echo 'подключен аренда-бензобур';
 require_once 'inc/icon_tools_menu.php'; //подключение меню выбора типа инструмента, с иконками и всплывающими надписями
 ?>
 
@@ -10,7 +10,9 @@ require_once 'inc/icon_tools_menu.php'; //подключение меню выб
 
         <?php
        //tools catalog
-        require_once 'inc/main_catalog_inc.php';  //бензиновые генераторы
+        require_once 'catalog/yamobur_arrays.php';
+        require 'inc/main_catalog_inc.php';  //бензиновые генераторы
+
         ?>
 
     </div>
