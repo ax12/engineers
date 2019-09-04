@@ -10,9 +10,7 @@ $after_price = ' руб';
 //указать максимаьное количество товаров к выводу
 $count_arrays = 30;
 //prices
-$mod_price_1 = 100;
-$mod_price_2 = 200;
-$mod_price_3 = 300;
+
 
 $catalog_item_1 = array(
     'img' => 'WackerNeusonMG5.png',

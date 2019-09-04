@@ -17,21 +17,7 @@ require_once 'inc/icon_tools_menu.php'; //подключение меню выб
     </div>
 </div>
 <!-- END services -->
-
-<div class="site-section">
-    <div class="block-2">
-        <div class="container">
-            <?php require_once 'inc/block_delivery_service.php' //подключение блока с описанием доставки и почему мы?>
-
-        </div>
-    </div>
-</div>
-<!-- END block-2 -->
-
-
-
-
-
+ <?php require_once 'inc/block_delivery_service.php' //подключение блока с описанием доставки и почему мы?>
 
 
 <div class="">

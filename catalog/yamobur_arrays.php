@@ -2,7 +2,7 @@
 //setting for page
 $page_settings_array = array (
     'h3' => 'нужно бурить?',
-    'h2' => 'Закажите бензиновый генератор <strong>в аренду с доставкой</strong> и расчитайтесь удобным для вас способом.',
+    'h2' => 'Закажите мотобур (бензобур) <strong>в аренду с доставкой</strong> и расчитайтесь удобным для вас способом. Удлинитель и шнек в комплекте',
 );
 //const
 $before_price = 'Стоимость в сутки';
@@ -10,9 +10,7 @@ $after_price = ' руб';
 //указать максимаьное количество товаров к выводу
 $count_arrays = 30;
 //prices
-$mod_price_1 = 300;
-$mod_price_2 = 600;
-$mod_price_3 = 600;
+
 
 $catalog_item_1 = array(
     'img' => 'yamobur/HitachiDA300E.jpg',
@@ -28,7 +26,7 @@ $catalog_item_1 = array(
 );
 
 $catalog_item_2 = array(
-    'img' => 'yamobur/RedVerg RD-EA630B.jpeg',
+    'img' => 'yamobur/RedVergRD-EA630B.jpeg',
     'name' => "Аренда бензобура RedVerg RD-EA630B",
     'price' => 900,
     'options' => array(
