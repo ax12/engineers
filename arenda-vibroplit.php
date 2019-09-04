@@ -1,7 +1,6 @@
 
 <?php
 require_once 'header.php';
-
 ?>
 
 <div class="site-section services-1-wrap">
@@ -9,8 +8,8 @@ require_once 'header.php';
 
 
         <?php
-       //tools catalog
-        require_once 'catalog/generators_arrays.php';
+        //tools catalog
+        require_once 'catalog/vibroplita_arrays.php';
         require_once 'inc/main_catalog_inc.php';  //бензиновые генераторы
         ?>
 
@@ -19,7 +18,7 @@ require_once 'header.php';
 
 <?php require_once 'inc/icon_tools_menu.php'; //подключение меню выбора типа инструмента, с иконками и всплывающими надписями?>
 <!-- END services -->
- <?php require_once 'inc/block_delivery_service.php' //подключение блока с описанием доставки и почему мы?>
+<?php require_once 'inc/block_delivery_service.php' //подключение блока с описанием доставки и почему мы?>
 
 
 <div class="">
@@ -33,7 +32,8 @@ require_once 'header.php';
                 <div class="bg-black  quote-form-wrap wrap text-white">
                     <div class="mb-5">
                         <h3 class="section-subtitle">Остались вопросы?</h3>
-                        <h2 class="section-title mb-4">Пишите или <strong><a href="tel:<?php echo $site_settings ['tel']; ?>">Звоните</a></strong></h2>
+                        <h2 class="section-title mb-4">Пишите или <strong><a
+                                        href="tel:<?php echo $site_settings ['tel']; ?>">Звоните</a></strong></h2>
                     </div>
                     <form action="#" class="quote-form">
                         <div class="row">
@@ -150,7 +150,8 @@ require_once 'header.php';
                 <div class="testimonial ">
                     <img src="images/person_3_sq.jpg" alt="">
                     <blockquote>
-                        <p>&ldquo;Заказывал бензогенератор под работы сварщика, привезли быстро, цены одни из самых низких в городе&rdquo;</p>
+                        <p>&ldquo;Заказывал бензогенератор под работы сварщика, привезли быстро, цены одни из самых
+                            низких в городе&rdquo;</p>
                     </blockquote>
                     <p class="client-name">Марат Сайфутдинов</p>
                 </div>
@@ -159,7 +160,8 @@ require_once 'header.php';
                 <div class="testimonial">
                     <img src="images/person_4_sq.jpg" alt="">
                     <blockquote>
-                        <p>&ldquo;Заказывал несколько раз компрессоры на разные объекты, инструмент приходит практически новый, все работает отлично. Спасибо за скорость!&rdquo;</p>
+                        <p>&ldquo;Заказывал несколько раз компрессоры на разные объекты, инструмент приходит практически
+                            новый, все работает отлично. Спасибо за скорость!&rdquo;</p>
                     </blockquote>
                     <p class="client-name">Сергей Беляков (прораб АСК)</p>
                 </div>
@@ -275,14 +277,14 @@ require_once 'header.php';
         <div class="row">
             <div class="col-12">
                 <div class="copyright">
-<!--                    <p>-->
-<!--                        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-<!--                        Copyright &copy;<script>document.write(new Date().getFullYear());</script>-->
-<!--                        All rights reserved | This template is made with <i class="icon-heart text-danger"-->
-<!--                                                                            aria-hidden="true"></i> by <a-->
-<!--                            href="https://colorlib.com" target="_blank">Colorlib</a>-->
-<!--                        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-<!--                    </p>-->
+                    <!--                    <p>-->
+                    <!--                        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                    <!--                        Copyright &copy;<script>document.write(new Date().getFullYear());</script>-->
+                    <!--                        All rights reserved | This template is made with <i class="icon-heart text-danger"-->
+                    <!--                                                                            aria-hidden="true"></i> by <a-->
+                    <!--                            href="https://colorlib.com" target="_blank">Colorlib</a>-->
+                    <!--                        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                    <!--                    </p>-->
                 </div>
             </div>
         </div>

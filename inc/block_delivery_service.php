@@ -1,3 +1,8 @@
+<?php
+if (!defined('TOSIBOSI')) {
+    die("Off, Fuck off =) !");
+} ?>
+
 <div class="row mb-5 mt-5 justify-content-center text-center">
     <div class="col-lg-8"><a name="petrol-generators">
             <h3 class="section-subtitle">где забирать?</h3>

@@ -1,3 +1,8 @@
+<?php
+if (!defined('TOSIBOSI')) {
+    die("Off, Fuck off =) !");
+} ?>
+
 <!--main template styles-->
 <link href="https://fonts.googleapis.com/css?family=Oswald:300,400,700|Muli:300,400" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">

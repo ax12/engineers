@@ -1,3 +1,7 @@
+<?php
+if (!defined('TOSIBOSI')) {
+    die("Off, Fuck off =) !");
+} ?>
 <!--scripts of template  -->
 <script src="../js/jquery-3.3.1.min.js"></script>
 <script src="../js/jquery-migrate-3.0.1.min.js"></script>

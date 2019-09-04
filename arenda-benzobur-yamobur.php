@@ -1,9 +1,7 @@
+
 <?php
 require_once 'header.php';
-echo 'подключен аренда-бензобур';
-require_once 'inc/icon_tools_menu.php'; //подключение меню выбора типа инструмента, с иконками и всплывающими надписями
 ?>
-
 <div class="site-section services-1-wrap">
     <div class="container">
 
@@ -18,7 +16,9 @@ require_once 'inc/icon_tools_menu.php'; //подключение меню выб
     </div>
 </div>
 <!-- END services -->
-<?php require_once 'inc/block_delivery_service.php' //подключение блока с описанием доставки и почему мы?>
+<?php
+require_once 'inc/icon_tools_menu.php'; //подключение меню выбора типа инструмента, с иконками и всплывающими надписями
+require_once 'inc/block_delivery_service.php' //подключение блока с описанием доставки и почему мы?>
 
 
 
@@ -174,52 +174,6 @@ require_once 'inc/icon_tools_menu.php'; //подключение меню выб
     </div>
 </div>
 
-
-<!--<div class="site-section bg-light">-->
-<!--    <div class="container">-->
-<!--        <div class="row justify-content-center">-->
-<!--            <div class="col-12 mb-5 text-left">-->
-<!--                <h3 class="section-subtitle">Blog</h3>-->
-<!--                <h2 class="section-title text-black mb-4">News &amp; Updates</h2>-->
-<!--            </div>-->
-<!--        </div>-->
-<!--        <div class="row">-->
-<!--            <div class="col-md-6 mb-4 mb-lg-0 col-lg-4">-->
-<!--                <div class="blog-entry">-->
-<!--                    <a href="#" class="img-link">-->
-<!--                        <img src="images/hero_1.jpg" alt="Image" class="img-fluid">-->
-<!--                    </a>-->
-<!--                    <div class="blog-entry-contents">-->
-<!--                        <h3><a href="#">Top Companies That Are Best In Industrial Business</a></h3>-->
-<!--                        <div class="meta">Posted by <a href="#">Admin</a> In <a href="#">News</a></div>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--            <div class="col-md-6 mb-4 mb-lg-0 col-lg-4">-->
-<!--                <div class="blog-entry">-->
-<!--                    <a href="#" class="img-link">-->
-<!--                        <img src="images/hero_1.jpg" alt="Image" class="img-fluid">-->
-<!--                    </a>-->
-<!--                    <div class="blog-entry-contents">-->
-<!--                        <h3><a href="#">Top Companies That Are Best In Industrial Business</a></h3>-->
-<!--                        <div class="meta">Posted by <a href="#">Admin</a> In <a href="#">News</a></div>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--            <div class="col-md-6 mb-4 mb-lg-0 col-lg-4">-->
-<!--                <div class="blog-entry">-->
-<!--                    <a href="#" class="img-link">-->
-<!--                        <img src="images/hero_1.jpg" alt="Image" class="img-fluid">-->
-<!--                    </a>-->
-<!--                    <div class="blog-entry-contents">-->
-<!--                        <h3><a href="#">Top Companies That Are Best In Industrial Business</a></h3>-->
-<!--                        <div class="meta">Posted by <a href="#">Admin</a> In <a href="#">News</a></div>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--        </div>-->
-<!--    </div>-->
-<!--</div>-->
 
 
 <div class="py-5 bg-primary block-4">

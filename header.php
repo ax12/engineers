@@ -1,4 +1,6 @@
 <?php
+define('TOSIBOSI', 1);
+
 require_once 'inc/site_settings.php';
 ?>
 <!DOCTYPE html>
@@ -35,7 +37,7 @@ require_once 'inc/site_settings.php';
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-6 col-lg-3">
-                    <a href="index.html">
+                    <a href="/">
                         <img src="images/logo.png" alt="Image" class="img-fluid">
                     </a>
                 </div>
@@ -92,6 +94,9 @@ require_once 'inc/site_settings.php';
                     <div class="mr-auto">
                         <nav class="site-navigation position-relative text-right" role="navigation">
                             <ul class="site-menu main-menu js-clone-nav mr-auto d-none pl-0 d-lg-block">
+
+
+
                                 <li class="active">
                                     <a href="/" class="nav-link text-left">Главная</a>
                                 </li>
@@ -104,7 +109,7 @@ require_once 'inc/site_settings.php';
                                 <li>
                                     <a href="arenda-benzobur-yamobur" class="nav-link text-left">Прокат бензобуров</a>
                                 </li>
-                                <li><a href="blog.html" class="nav-link text-left">Доставка</a></li>
+                                <li><a href="arenda-vibroplit" class="nav-link text-left">прокат виброплит</a></li>
                                 <li>
                                     <a href="contact.html" class="nav-link text-left">Оплата</a>
                                 </li>

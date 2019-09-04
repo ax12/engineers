@@ -1,4 +1,9 @@
 <?php
+if (!defined('TOSIBOSI')) {
+    die("Off, Fuck off =) !");
+} ?>
+
+<?php
 //setting for page
 $page_settings_array = array (
     'h3' => 'нет электричества?',

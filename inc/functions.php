@@ -1,4 +1,8 @@
 <?php
+if (!defined('TOSIBOSI')) {
+    die("Off, Fuck off =) !");
+} ?>
+<?php
 //функция формирования цен в зависимости от сроков аренды инструмента, возвращает массив в раздел main_catalog_inc.php
 function getPricesFoo ($arg_prc) {
     if ($arg_prc) {

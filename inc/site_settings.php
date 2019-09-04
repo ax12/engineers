@@ -1,4 +1,12 @@
 <?php
+if (!defined('TOSIBOSI')) {
+    die("Off, Fuck off =) !");
+} ?>
+<?php
+if (!defined('TOSIBOSI')) {
+    die("Off, Fuck off =) !");
+} ?>
+<?php
 //bootstrap cols
 $col_lg_count = 4;
 $col_md_count = 6;

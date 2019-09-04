@@ -1,4 +1,7 @@
-
+<?php
+if (!defined('TOSIBOSI')) {
+    die("Off, Fuck off =) !");
+} ?>
 <div class="site-section">
     <div class="container">
         <div class="row">
