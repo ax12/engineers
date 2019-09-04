@@ -19,7 +19,7 @@ if (!defined('TOSIBOSI')) {
             <div class="col-md-6 col-lg-3 mb-4">
                 <div class="project-item">
                     <div class="project-item-contents">
-                        <a href="#">
+                        <a href="<?php echo $menu_array['Прокат бензогенераторов']?>">
                             <span class="project-item-category">Аренда</span>
                             <h2 class="project-item-title">
                                 Бензогенераторов
@@ -32,10 +32,10 @@ if (!defined('TOSIBOSI')) {
             <div class="col-md-6 col-lg-3 mb-4">
                 <div class="project-item">
                     <div class="project-item-contents">
-                        <a href="#">
+                        <a href="<?php echo $menu_array['Прокат бензобуров']?>">
                             <span class="project-item-category">Аренда</span>
                             <h2 class="project-item-title">
-                                Ямобуров
+                                Мотобуров
                             </h2>
                         </a>
                     </div>
@@ -45,7 +45,7 @@ if (!defined('TOSIBOSI')) {
             <div class="col-md-6 col-lg-3 mb-4">
                 <div class="project-item">
                     <div class="project-item-contents">
-                        <a href="#">
+                        <a href="<?php echo $menu_array['прокат виброплит']?>">
                             <span class="project-item-category">Аренда</span>
                             <h2 class="project-item-title">
                                 Виброплит
