@@ -40,6 +40,19 @@
 .icon-tel {
   font-size: 25px;
 }
+.mx-item-name {
+  font-size: 18px;
+  line-height: 12px;
+  color: #FF5E15;
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+}
+.mx-project-item-category {
+  font-size: 14px;
+  line-height: 12px;
+  color: #ffffff;
+  padding: 5px;
+}
 
 .mx-project-item:before {
   content: "";
@@ -95,4 +108,5 @@
 .mx-project-item:hover img {
   -webkit-transform: scale(1.2);
   -ms-transform: scale(1.2);
-  transform: scale(1.2); }
+  transform: scale(1.2);
+}

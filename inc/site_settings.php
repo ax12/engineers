@@ -16,13 +16,13 @@ $site_settings = array(
     'city' => 'Екатеринбург',
     'address' => "Крестинского, 10",
     'tel' => "+7(922)222-22-22",
-    'email' => 800,
+    'email' => 'info@instrument-ekat.ru',
     'main_menu' => array(
         'Главная' => '/',
         'Прокат бензогенераторов' => 'arenda-benzogeneratora',
         'Прокат бензобуров' => 'arenda-benzobur-yamobur',
         'Прокат виброплит' => 'arenda-vibroplit',
-        'Оплата' => 'АИ-92',
+        'Оплата' => '/#',
 
     )
 

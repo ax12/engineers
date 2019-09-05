@@ -42,13 +42,18 @@ if (!defined('TOSIBOSI')) {
 
                     ?>
                     <div class="list-prices">
-                        <div class="project-item-category">Сутки
+                        <div class="mx-project-item-category">
+                            <span class="mx-item-name">Условия проката:</span> заключаем договор на ваши паспортные данные, или залог в размере полной стоимости оборудования</div>
+                        <div class="mx-project-item-category"><span class="mx-item-name">Оплата:</span> наличные, перевод, оплата на р/с, с НДС или без НДС, оплачиваете планируемый период использования, остальное по факту</div>
+                        <br>
+                        <span class="mx-item-name">Стоимость:</span>
+                        <div class="mx-project-item-category">Сутки
                             : <?php echo ${'catalog_item_' . $i} ['price'] . $after_price ?></div>
-                        <div class="project-item-category">2-7 суток
+                        <div class="mx-project-item-category">2-7 суток
                             : <?php echo $price_1 . $after_price ?></div>
-                        <div class="project-item-category">8-14 суток
+                        <div class="mx-project-item-category">8-14 суток
                             : <?php echo $price_2 . $after_price ?></div>
-                        <div class="project-item-category">более 15 суток
+                        <div class="mx-project-item-category">более 15 суток
                             : <?php echo $price_3 . $after_price ?></div>
                         <!--                        --><?php //require_once 'feedback/feedback_form.php' ?>
                         <!--                        <input type="submit" class="btn btn-primary rounded-0 mx-buttom d-none d-sm-block" value="онлайн заявка">-->
