@@ -1,20 +1,20 @@
 <?php
 require_once 'header.php';
-
-require_once 'inc/icon_tools_menu.php'; //подключение меню выбора типа инструмента, с иконками и всплывающими надписями
+require_once 'inc/carusel_tools.php'
+//require_once 'inc/icon_tools_menu.php'; //подключение меню выбора типа инструмента, с иконками и всплывающими надписями
 ?>
 
-<div class="site-section services-1-wrap">
-    <div class="container">
-
-
-        <?php
-       //tools catalog
-        require_once 'inc/main_catalog_inc.php';  //бензиновые генераторы
-        ?>
-
-    </div>
-</div>
+<!--<div class="site-section services-1-wrap">-->
+<!--    <div class="container">-->
+<!---->
+<!---->
+<!--        --><?php
+//       //tools catalog
+//        require_once 'inc/main_catalog_inc.php';  //бензиновые генераторы
+//        ?>
+<!---->
+<!--    </div>-->
+<!--</div>-->
 <!-- END services -->
 
 
@@ -29,118 +29,58 @@ require_once 'inc/icon_tools_menu.php'; //подключение меню выб
 
 
 
-<div class="">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-5 align-self-end">
-                <img src="images/img_transparent.png" alt="Image" class="img-fluid">
-            </div>
-            <div class="col-lg-7 align-self-center mb-5">
-
-                <div class="bg-black  quote-form-wrap wrap text-white">
-                    <div class="mb-5">
-                        <h3 class="section-subtitle">Остались вопросы?</h3>
-                        <h2 class="section-title mb-4">Пишите или <strong><a href="tel:<?php echo $site_settings ['tel']; ?>">Звоните</a></strong></h2>
-                    </div>
-                    <form action="#" class="quote-form">
-                        <div class="row">
-                            <div class="col-md-6 form-group">
-                                <input type="text" class="form-control" placeholder="Ваше имя*">
-                            </div>
-                            <div class="col-md-6 form-group">
-                                <input type="text" class="form-control" placeholder="Номер телефона">
-                            </div>
-                        </div>
-
-                        <div class="row">
-                            <div class="col-md-6 form-group">
-                                <input type="text" class="form-control" placeholder="Ваш email*">
-                            </div>
-                            <div class="col-md-6 form-group">
-                                <input type="text" class="form-control" placeholder="Тема">
-                            </div>
-                        </div>
-
-                        <div class="row">
-                            <div class="col-md-6">
-                                    <textarea name="" class="form-control" id="" placeholder="Сообщение*" cols="30"
-                                              rows="7"></textarea>
-                            </div>
-                            <div class="col-md-6 align-self-end">
-                                <input type="submit" class="btn btn-primary btn-block btn-lg rounded-0"
-                                       value="Отправить">
-                            </div>
-                        </div>
-
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-
-<div class="site-section block-3">
-    <div class="container">
-
-        <div class="mb-5">
-            <h3 class="section-subtitle">наш ассортимент</h3>
-            <h2 class="section-title mb-4">Новые поступления <strong>в отдел проката</strong></h2>
-        </div>
-
-        <div class="projects-carousel-wrap">
-            <div class="owl-carousel owl-slide-3">
-                <div class="project-item">
-                    <div class="project-item-contents">
-                        <a href="#">
-                            <span class="project-item-category">Factory</span>
-                            <h2 class="project-item-title">
-                                Building Refinery
-                            </h2>
-                        </a>
-                    </div>
-                    <img src="images/works_1.jpg" alt="Image" class="img-fluid">
-                </div>
-                <div class="project-item">
-                    <div class="project-item-contents">
-                        <a href="#">
-                            <span class="project-item-category">Factory</span>
-                            <h2 class="project-item-title">
-                                Building Refinery
-                            </h2>
-                        </a>
-                    </div>
-                    <img src="images/works_2.jpg" alt="Image" class="img-fluid">
-                </div>
-                <div class="project-item">
-                    <div class="project-item-contents">
-                        <a href="#">
-                            <span class="project-item-category">Factory</span>
-                            <h2 class="project-item-title">
-                                Building Refinery
-                            </h2>
-                        </a>
-                    </div>
-                    <img src="images/works_3.jpg" alt="Image" class="img-fluid">
-                </div>
-                <div class="project-item">
-                    <div class="project-item-contents">
-                        <a href="#">
-                            <span class="project-item-category">Factory</span>
-                            <h2 class="project-item-title">
-                                Building Refinery
-                            </h2>
-                        </a>
-                    </div>
-                    <img src="images/works_4.jpg" alt="Image" class="img-fluid">
-                </div>
+<!--<div class="">-->
+<!--    <div class="container">-->
+<!--        <div class="row">-->
+<!--            <div class="col-lg-5 align-self-end">-->
+<!--                <img src="images/img_transparent.png" alt="Image" class="img-fluid">-->
+<!--            </div>-->
+<!--            <div class="col-lg-7 align-self-center mb-5">-->
+<!---->
+<!--                <div class="bg-black  quote-form-wrap wrap text-white">-->
+<!--                    <div class="mb-5">-->
+<!--                        <h3 class="section-subtitle">Остались вопросы?</h3>-->
+<!--                        <h2 class="section-title mb-4">Пишите или <strong><a href="tel:--><?php //echo $site_settings ['tel']; ?><!--">Звоните</a></strong></h2>-->
+<!--                    </div>-->
+<!--                    <form action="#" class="quote-form">-->
+<!--                        <div class="row">-->
+<!--                            <div class="col-md-6 form-group">-->
+<!--                                <input type="text" class="form-control" placeholder="Ваше имя*">-->
+<!--                            </div>-->
+<!--                            <div class="col-md-6 form-group">-->
+<!--                                <input type="text" class="form-control" placeholder="Номер телефона">-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!---->
+<!--                        <div class="row">-->
+<!--                            <div class="col-md-6 form-group">-->
+<!--                                <input type="text" class="form-control" placeholder="Ваш email*">-->
+<!--                            </div>-->
+<!--                            <div class="col-md-6 form-group">-->
+<!--                                <input type="text" class="form-control" placeholder="Тема">-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!---->
+<!--                        <div class="row">-->
+<!--                            <div class="col-md-6">-->
+<!--                                    <textarea name="" class="form-control" id="" placeholder="Сообщение*" cols="30"-->
+<!--                                              rows="7"></textarea>-->
+<!--                            </div>-->
+<!--                            <div class="col-md-6 align-self-end">-->
+<!--                                <input type="submit" class="btn btn-primary btn-block btn-lg rounded-0"-->
+<!--                                       value="Отправить">-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!---->
+<!--                    </form>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</div>-->
 
 
-            </div>
-        </div>
 
-    </div>
-</div>
 
 
 <div class="site-section testimonial-wrap">
@@ -259,14 +199,7 @@ require_once 'inc/icon_tools_menu.php'; //подключение меню выб
                     <li><a href="#">Поставщики</a></li>
                 </ul>
             </div>
-            <div class="col-lg-3">
-                <h3 class="footer-heading"><span>Наш сервис</span></h3>
-                <ul class="list-unstyled">
-                    <li><a href="#">Доставка</a></li>
-                    <li><a href="#">Оплата</a></li>
-                    <li><a href="#">Обслуживание</a></li>
-                </ul>
-            </div>
+
             <div class="col-lg-3">
                 <h3 class="footer-heading"><span>Контакты</span></h3>
                 <ul class="list-unstyled">
@@ -279,25 +212,11 @@ require_once 'inc/icon_tools_menu.php'; //подключение меню выб
             </div>
         </div>
 
-        <div class="row">
-            <div class="col-12">
-                <div class="copyright">
-<!--                    <p>-->
-<!--                        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-<!--                        Copyright &copy;<script>document.write(new Date().getFullYear());</script>-->
-<!--                        All rights reserved | This template is made with <i class="icon-heart text-danger"-->
-<!--                                                                            aria-hidden="true"></i> by <a-->
-<!--                            href="https://colorlib.com" target="_blank">Colorlib</a>-->
-<!--                        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-<!--                    </p>-->
-                </div>
-            </div>
-        </div>
     </div>
 </div>
 
 
-</div>
+
 <!-- .site-wrap -->
 <!-- loader -->
 <div id="loader" class="show fullscreen">

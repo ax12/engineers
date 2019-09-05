@@ -46,6 +46,7 @@ if (!defined('TOSIBOSI')) {
                 <div class="project-item">
                     <div class="project-item-contents">
                         <a href="<?php echo $menu_array['прокат виброплит']?>">
+
                             <span class="project-item-category">Аренда</span>
                             <h2 class="project-item-title">
                                 Виброплит
@@ -59,7 +60,7 @@ if (!defined('TOSIBOSI')) {
             <div class="col-md-6 col-lg-3 mb-4">
                 <div class="project-item">
                     <div class="project-item-contents">
-                        <a href="#">
+                        <a href="<?php echo $menu_array['Прокат компрессора']?>">
                             <span class="project-item-category">Аренда</span>
                             <h2 class="project-item-title">
                                 Компрессоров

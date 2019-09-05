@@ -22,118 +22,10 @@ require_once 'header.php';
  <?php require_once 'inc/block_delivery_service.php' //подключение блока с описанием доставки и почему мы?>
 
 
-<div class="">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-5 align-self-end">
-                <img src="images/img_transparent.png" alt="Image" class="img-fluid">
-            </div>
-            <div class="col-lg-7 align-self-center mb-5">
-
-                <div class="bg-black  quote-form-wrap wrap text-white">
-                    <div class="mb-5">
-                        <h3 class="section-subtitle">Остались вопросы?</h3>
-                        <h2 class="section-title mb-4">Пишите или <strong><a href="tel:<?php echo $site_settings ['tel']; ?>">Звоните</a></strong></h2>
-                    </div>
-                    <form action="#" class="quote-form">
-                        <div class="row">
-                            <div class="col-md-6 form-group">
-                                <input type="text" class="form-control" placeholder="Ваше имя*">
-                            </div>
-                            <div class="col-md-6 form-group">
-                                <input type="text" class="form-control" placeholder="Номер телефона">
-                            </div>
-                        </div>
-
-                        <div class="row">
-                            <div class="col-md-6 form-group">
-                                <input type="text" class="form-control" placeholder="Ваш email*">
-                            </div>
-                            <div class="col-md-6 form-group">
-                                <input type="text" class="form-control" placeholder="Тема">
-                            </div>
-                        </div>
-
-                        <div class="row">
-                            <div class="col-md-6">
-                                    <textarea name="" class="form-control" id="" placeholder="Сообщение*" cols="30"
-                                              rows="7"></textarea>
-                            </div>
-                            <div class="col-md-6 align-self-end">
-                                <input type="submit" class="btn btn-primary btn-block btn-lg rounded-0"
-                                       value="Отправить">
-                            </div>
-                        </div>
-
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
 
 
-<div class="site-section block-3">
-    <div class="container">
-
-        <div class="mb-5">
-            <h3 class="section-subtitle">наш ассортимент</h3>
-            <h2 class="section-title mb-4">Новые поступления <strong>в отдел проката</strong></h2>
-        </div>
-
-        <div class="projects-carousel-wrap">
-            <div class="owl-carousel owl-slide-3">
-                <div class="project-item">
-                    <div class="project-item-contents">
-                        <a href="#">
-                            <span class="project-item-category">Factory</span>
-                            <h2 class="project-item-title">
-                                Building Refinery
-                            </h2>
-                        </a>
-                    </div>
-                    <img src="images/works_1.jpg" alt="Image" class="img-fluid">
-                </div>
-                <div class="project-item">
-                    <div class="project-item-contents">
-                        <a href="#">
-                            <span class="project-item-category">Factory</span>
-                            <h2 class="project-item-title">
-                                Building Refinery
-                            </h2>
-                        </a>
-                    </div>
-                    <img src="images/works_2.jpg" alt="Image" class="img-fluid">
-                </div>
-                <div class="project-item">
-                    <div class="project-item-contents">
-                        <a href="#">
-                            <span class="project-item-category">Factory</span>
-                            <h2 class="project-item-title">
-                                Building Refinery
-                            </h2>
-                        </a>
-                    </div>
-                    <img src="images/works_3.jpg" alt="Image" class="img-fluid">
-                </div>
-                <div class="project-item">
-                    <div class="project-item-contents">
-                        <a href="#">
-                            <span class="project-item-category">Factory</span>
-                            <h2 class="project-item-title">
-                                Building Refinery
-                            </h2>
-                        </a>
-                    </div>
-                    <img src="images/works_4.jpg" alt="Image" class="img-fluid">
-                </div>
 
 
-            </div>
-        </div>
-
-    </div>
-</div>
 
 
 <div class="site-section testimonial-wrap">
@@ -169,52 +61,6 @@ require_once 'header.php';
 </div>
 
 
-<!--<div class="site-section bg-light">-->
-<!--    <div class="container">-->
-<!--        <div class="row justify-content-center">-->
-<!--            <div class="col-12 mb-5 text-left">-->
-<!--                <h3 class="section-subtitle">Blog</h3>-->
-<!--                <h2 class="section-title text-black mb-4">News &amp; Updates</h2>-->
-<!--            </div>-->
-<!--        </div>-->
-<!--        <div class="row">-->
-<!--            <div class="col-md-6 mb-4 mb-lg-0 col-lg-4">-->
-<!--                <div class="blog-entry">-->
-<!--                    <a href="#" class="img-link">-->
-<!--                        <img src="images/hero_1.jpg" alt="Image" class="img-fluid">-->
-<!--                    </a>-->
-<!--                    <div class="blog-entry-contents">-->
-<!--                        <h3><a href="#">Top Companies That Are Best In Industrial Business</a></h3>-->
-<!--                        <div class="meta">Posted by <a href="#">Admin</a> In <a href="#">News</a></div>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--            <div class="col-md-6 mb-4 mb-lg-0 col-lg-4">-->
-<!--                <div class="blog-entry">-->
-<!--                    <a href="#" class="img-link">-->
-<!--                        <img src="images/hero_1.jpg" alt="Image" class="img-fluid">-->
-<!--                    </a>-->
-<!--                    <div class="blog-entry-contents">-->
-<!--                        <h3><a href="#">Top Companies That Are Best In Industrial Business</a></h3>-->
-<!--                        <div class="meta">Posted by <a href="#">Admin</a> In <a href="#">News</a></div>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--            <div class="col-md-6 mb-4 mb-lg-0 col-lg-4">-->
-<!--                <div class="blog-entry">-->
-<!--                    <a href="#" class="img-link">-->
-<!--                        <img src="images/hero_1.jpg" alt="Image" class="img-fluid">-->
-<!--                    </a>-->
-<!--                    <div class="blog-entry-contents">-->
-<!--                        <h3><a href="#">Top Companies That Are Best In Industrial Business</a></h3>-->
-<!--                        <div class="meta">Posted by <a href="#">Admin</a> In <a href="#">News</a></div>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--        </div>-->
-<!--    </div>-->
-<!--</div>-->
-
 
 <div class="py-5 bg-primary block-4">
     <div class="container">
@@ -233,64 +79,7 @@ require_once 'header.php';
     </div>
 </div>
 
-<div class="footer">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-3">
-                <p class="mb-4"><img src="images/logo.png" alt="Image" class="img-fluid"></p>
-                <p>Самые выгодные условия на прокат бензо и электроинструментов в Екатеринбурге </p>
-
-            </div>
-            <div class="col-lg-3">
-                <h3 class="footer-heading"><span>Our Company</span></h3>
-                <ul class="list-unstyled">
-                    <li><a href="#">Главная</a></li>
-                    <li><a href="#">Новости</a></li>
-                    <li><a href="#">Сервис</a></li>
-                    <li><a href="#">Наши сотрудники</a></li>
-                    <li><a href="#">Вакансии</a></li>
-                    <li><a href="#">Поставщики</a></li>
-                </ul>
-            </div>
-            <div class="col-lg-3">
-                <h3 class="footer-heading"><span>Наш сервис</span></h3>
-                <ul class="list-unstyled">
-                    <li><a href="#">Доставка</a></li>
-                    <li><a href="#">Оплата</a></li>
-                    <li><a href="#">Обслуживание</a></li>
-                </ul>
-            </div>
-            <div class="col-lg-3">
-                <h3 class="footer-heading"><span>Контакты</span></h3>
-                <ul class="list-unstyled">
-                    <li><a href="#">Поддержка</a></li>
-                    <li><a href="#">Обращение</a></li>
-                    <li><a href="#">Пресса о нас</a></li>
-                    <li><a href="#">Строительные площадки</a></li>
-                    <li><a href="#">Наши партнеры</a></li>
-                </ul>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col-12">
-                <div class="copyright">
-<!--                    <p>-->
-<!--                        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-<!--                        Copyright &copy;<script>document.write(new Date().getFullYear());</script>-->
-<!--                        All rights reserved | This template is made with <i class="icon-heart text-danger"-->
-<!--                                                                            aria-hidden="true"></i> by <a-->
-<!--                            href="https://colorlib.com" target="_blank">Colorlib</a>-->
-<!--                        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-<!--                    </p>-->
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-
-</div>
+<?php require_once 'footer.php'; ?>
 <!-- .site-wrap -->
 <!-- loader -->
 <div id="loader" class="show fullscreen">

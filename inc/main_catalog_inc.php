@@ -53,7 +53,7 @@ if (!defined('TOSIBOSI')) {
                             - <?php echo $price_1 . $after_price ?></div>
                         <div class="mx-project-item-category"><span class="mx-period">8-14 суток</span>
                             - <?php echo $price_2 . $after_price ?></div>
-                        <div class="mx-project-item-category"><span class="mx-period">*более 15 суток</span>
+                        <div class="mx-project-item-category"><span class="mx-period">более 15 суток</span>
                             - <?php echo $price_3 . $after_price ?></div>
                         <!--                        --><?php //require_once 'feedback/feedback_form.php' ?>
                         <!--                        <input type="submit" class="btn btn-primary rounded-0 mx-buttom d-none d-sm-block" value="онлайн заявка">-->
