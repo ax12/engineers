@@ -2,10 +2,7 @@
 if (!defined('TOSIBOSI')) {
     die("Off, Fuck off =) !");
 } ?>
-<?php
-if (!defined('TOSIBOSI')) {
-    die("Off, Fuck off =) !");
-} ?>
+
 <?php
 //bootstrap cols
 $col_lg_count = 4;
@@ -22,6 +19,7 @@ $site_settings = array(
         'Прокат бензогенераторов' => 'arenda-benzogeneratora',
         'Прокат бензобуров' => 'arenda-benzobur-yamobur',
         'Прокат виброплит' => 'arenda-vibroplit',
+        'Прокат компрессора' => 'arenda-kompressora',
         'Оплата' => '/#',
 
     )

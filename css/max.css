@@ -32,6 +32,8 @@
     background-color: #09162a;
     color: #ffffff;
     padding: 5px;
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
 }
 .project-item-title {
   font-size: 32px !important;
@@ -52,6 +54,10 @@
   line-height: 12px;
   color: #ffffff;
   padding: 5px;
+}
+.mx-period {
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
 }
 
 .mx-project-item:before {

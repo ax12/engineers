@@ -47,17 +47,17 @@ if (!defined('TOSIBOSI')) {
                         <div class="mx-project-item-category"><span class="mx-item-name">Оплата:</span> наличные, перевод, оплата на р/с, с НДС или без НДС, оплачиваете планируемый период использования, остальное по факту</div>
                         <br>
                         <span class="mx-item-name">Стоимость:</span>
-                        <div class="mx-project-item-category">Сутки
-                            : <?php echo ${'catalog_item_' . $i} ['price'] . $after_price ?></div>
-                        <div class="mx-project-item-category">2-7 суток
-                            : <?php echo $price_1 . $after_price ?></div>
-                        <div class="mx-project-item-category">8-14 суток
-                            : <?php echo $price_2 . $after_price ?></div>
-                        <div class="mx-project-item-category">более 15 суток
-                            : <?php echo $price_3 . $after_price ?></div>
+                        <div class="mx-project-item-category"><span class="mx-period">Сутки</span>
+                            - <?php echo ${'catalog_item_' . $i} ['price'] . $after_price ?></div>
+                        <div class="mx-project-item-category"><span class="mx-period">2-7 суток</span>
+                            - <?php echo $price_1 . $after_price ?></div>
+                        <div class="mx-project-item-category"><span class="mx-period">8-14 суток</span>
+                            - <?php echo $price_2 . $after_price ?></div>
+                        <div class="mx-project-item-category"><span class="mx-period">*более 15 суток</span>
+                            - <?php echo $price_3 . $after_price ?></div>
                         <!--                        --><?php //require_once 'feedback/feedback_form.php' ?>
                         <!--                        <input type="submit" class="btn btn-primary rounded-0 mx-buttom d-none d-sm-block" value="онлайн заявка">-->
-                        <a class="btn btn-primary rounded-0 mx-buttom d-block d-sm-none"
+                        <a class="btn btn-primary rounded-0 mx-buttom "
                            href="tel:<?php echo $site_settings ['tel']; ?>">заказать</a>
 
                     </div>
